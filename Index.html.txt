@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Al Naseer Trading Contacting Service</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #f0f4f8;
+            color: #333;
+        }
+
+
+        header {
+            background-color: #0b3d91;
+            color: #fff;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+
+
+        nav {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            background-color: #062c63;
+        }
+
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 15px 25px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+
+        nav a:hover {
+            background-color: #0b3d91;
+        }
+
+
+        .container {
+            max-width: 1000px;
+            margin: 30px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+
+        .section-title {
+            color: #0b3d91;
+            margin-bottom: 15px;
+            font-size: 1.6em;
+            text-align: center;
+        }
+
+
+        .home img, .gallery img, .services img {
+            width: 100%;
+            border-radius: 12px;
+            margin: 20px 0;
+        }
+
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+        }
+
+
+        .gallery img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+        }
+
+
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+
+        .service-card {
+            background-color: #f7f9fc;
+            border-radius: 12px;
+            width: 300px;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+
+
+        .service-card h3 {
+            color: #0b3d91;
+        }
+
+
+        .contact-info, .contact-form {
+            text-align: center;
+        }
+
+
+        .contact-info p {
+            margin: 8px 0;
+            font-weight: bold;
+        }
+
+
+        form {
+            display: flex;
+            flex-direction: column;
+            max-width: 500px;
+            margin: 20px auto;
+        }
+
+
+        form input, form textarea {
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+            font-size: 1em;
+        }
+
+
+        form button {
+            background-color: #0b3d91;
+            color: #fff;
+            padding: 12px;
+            border: none;
+            border-radius: 6px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+
+        form button:hover {
+            background-color: #062c63;
+        }
+
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #062c63;
+            color: #fff;
+        }
+
+
+        @media (max-width: 768px) {
+            nav { flex-direction: column; }
+            nav a { padding: 12px 0; }
+            .gallery img, .service-card { width: 90%; height: auto; }
+            .services { flex-direction: column; }
+        }
+    </style>
+</head>
+<body>
+
+
+<header>
+    <h1>Al Naseer Trading Contacting Service</h1>
+</header>
+
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+
+<div class="container home" id="home">
+    <h2 class="section-title">Welcome to Al Naseer Trading</h2>
+    <p style="text-align:center;">Your trusted partner for changing sponsorships, heavy machinery, and professional services in Qatar.</p>
+    <img src="https://via.placeholder.com/800x400.png?text=Al+Naseer+Trading+Services" alt="Company Image">
+</div>
+
+
+<div class="container" id="about">
+    <h2 class="section-title">About Us</h2>
+    <p style="text-align:center;">Al Naseer Trading Contacting Service specializes in providing professional solutions for changing sponsorships, handling heavy machinery, and delivering expert services to businesses and individuals. Our mission is to offer fast, reliable, and professional support for all your needs in Qatar.</p>
+</div>
+
+
+<div class="container" id="services">
+    <h2 class="section-title">Our Services</h2>
+    <div class="services">
+        <div class="service-card">
+            <img src="https://via.placeholder.com/300x200.png?text=Heavy+Machinery" alt="Heavy Machinery">
+            <h3>Heavy Machinery</h3>
+            <p>Professional handling and trading of heavy machinery for various industries.</p>
+        </div>
+        <div class="service-card">
+            <img src="https://via.placeholder.com/300x200.png?text=Trading+Service" alt="Trading Service">
+            <h3>Trading Services</h3>
+            <p>Reliable trading services for businesses and individuals across Qatar.</p>
+        </div>
+        <div class="service-card">
+            <img src="https://via.placeholder.com/300x200.png?text=Change+Sponsorship" alt="Change Sponsorship">
+            <h3>Change Sponsorship</h3>
+            <p>Fast and professional assistance with sponsorship transfers and related services.</p>
+        </div>
+    </div>
+</div>
+
+
+<div class="container" id="gallery">
+    <h2 class="section-title">Gallery</h2>
+    <div class="gallery">
+        <img src="https://via.placeholder.com/300x200.png?text=Heavy+Machinery+1" alt="Heavy Machinery">
+        <img src="https://via.placeholder.com/300x200.png?text=Heavy+Machinery+2" alt="Heavy Machinery">
+        <img src="https://via.placeholder.com/300x200.png?text=Trading+Service" alt="Trading Service">
+        <img src="https://via.placeholder.com/300x200.png?text=Change+Sponsorship" alt="Change Sponsorship">
+    </div>
+</div>
+
+
+<div class="container" id="contact">
+    <h2 class="section-title">Contact Us</h2>
+    <div class="contact-info">
+        <p>Call: 55305249, 77824577</p>
+        <p>WhatsApp: 55205249</p>
+        <p>Email: alnaseer.trdcibtsvc@gmail.com</p>
+        <p>Address: Doha, Qatar</p>
+    </div>
+    <div class="contact-form">
+        <form action="mailto:alnaseer.trdcibtsvc@gmail.com" method="post" enctype="text/plain">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</div>
+
+
+<footer>
+    &copy; 2025 Al Naseer Trading Contacting Service. All Rights Reserved.
+</footer>
+
+
+</body>
+</html>
